@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Проектная работа — 8-Д</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Fon uchun yumshoq gradient */
+    body {
+      background: linear-gradient(135deg, #0095ff 0%, #00cc88 100%);
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar-blur {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+    }
+    .card-hover:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+    .fade-in {
+      animation: fade 1.2s ease;
+    }
+    @keyframes fade {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="navbar-blur fixed top-0 left-0 right-0 shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-blue-700 hover:text-green-600 transition-all">🇺🇿 Проектная работа</a>
+      <nav class="flex gap-4">
+        <a href="Abdushukur.html" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-green-600 transition-all">Абдушукур</a>
+        <a href="Abdulbori.html" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-green-600 transition-all">Абдулбори</a>
+        <a href="Ashraf.html" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-green-600 transition-all">Ашраф</a>
+        <a href="Men.html" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-green-600 transition-all">Мухаммадамин</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Kontent -->
+  <main class="pt-32 text-center fade-in">
+    <h1 class="text-5xl font-bold text-white drop-shadow-md">СОР по информатике — 8-Д класс</h1>
+    <p class="text-xl text-white/90 mt-3">Интегрированный проект: воспитание и основы государства и права</p>
+
+    <!-- Kartalar -->
+    <section class="mt-10 max-w-5xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-4">
+      <!-- 1 -->
+      <div class="card-hover bg-white/90 rounded-2xl p-6 shadow-md border-t-4 border-blue-500 transition-all">
+        <h2 class="text-2xl font-semibold text-blue-700 mb-2">Абдумавлонов Абдушукур</h2>
+        <p class="text-gray-600 text-sm">Мавзулар: Конституция, Экология, Тинчлик</p>
+        <a href="Abdushukur.html" class="mt-3 inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Открыть</a>
+      </div>
+      <!-- 2 -->
+      <div class="card-hover bg-white/90 rounded-2xl p-6 shadow-md border-t-4 border-green-500 transition-all">
+        <h2 class="text-2xl font-semibold text-green-700 mb-2">Махмуджонов Абдулбори</h2>
+        <p class="text-gray-600 text-sm">Мавзулар: Ёшлар, Ватанпарварлик, Ҳуқуқ ва бурч</p>
+        <a href="Abdulbori.html" class="mt-3 inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Открыть</a>
+      </div>
+      <!-- 3 -->
+      <div class="card-hover bg-white/90 rounded-2xl p-6 shadow-md border-t-4 border-yellow-500 transition-all">
+        <h2 class="text-2xl font-semibold text-yellow-600 mb-2">Рихсиев Ашраф</h2>
+        <p class="text-gray-600 text-sm">Мавзулар: Адолат, Махалла, Ахборот маданияти</p>
+        <a href="Ashraf.html" class="mt-3 inline-block bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Открыть</a>
+      </div>
+      <!-- 4 -->
+      <div class="card-hover bg-white/90 rounded-2xl p-6 shadow-md border-t-4 border-red-500 transition-all">
+        <h2 class="text-2xl font-semibold text-red-600 mb-2">Иброхимов Мухаммадамин</h2>
+        <p class="text-gray-600 text-sm">Мавзулар: Меҳр, Ёшлар, Масъулият</p>
+        <a href="Men.html" class="mt-3 inline-block bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Открыть</a>
+      </div>
+    </section>
+
+    <!-- Pastda yozuv -->
+    <footer class="mt-16 mb-8 text-white/80">
+      <p>© 2025 8-Д класс | Проектная работа «Я — достойный гражданин Родины!»</p>
+    </footer>
+  </main>
+
+</body>
+</html>
